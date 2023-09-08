@@ -1,0 +1,73 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+.page-header {
+  margin-top: 3rem;
+}
+h1 {
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 0;
+}
+
+.page-header > p {
+  padding-top: 0;
+}
+main {
+  text-align: center;
+  background-color: #eee;
+  font-family: Helvetica;
+}
+
+#img-div {
+  background-color: white;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 atuo;
+}
+
+#img-caption {
+  padding-bottom: 1rem;
+}
+li > p > span {
+  font-weight: bold;
+}
+
+#tribute-info {
+  display: block;
+  width: 35%;
+  height: auto;
+  text-align: left;
+  margin: 0 auto 10px auto;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+li > p {
+  font-weight: lighter;
+  line-height: 1.6;
+}
+
+.comments {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 0 auto 10px auto;
+  text-align: left;
+  font-style: italic;
+  font-weight: lighter;
+  line-height: 1.6;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #74638f;
+}
