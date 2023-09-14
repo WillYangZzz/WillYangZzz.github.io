@@ -10,52 +10,12 @@
     <nav id="navbar">
       <header>Will's Blogs</header>
       <ul>
-        <li><a class="nav-link" href="#Introduction">HTML/CSS</a></li>
-      </ul>
-      <ul>
         <li>
           <a class="nav-link" href="#javascript">JavaScript</a>
         </li>
       </ul>
-      <ul>
-        <li>
-          <a class="nav-link" href="#JavaScript_and_Java">To be continue ...</a>
-        </li>
-      </ul>
-      <ul>
-        <li><a class="nav-link" href="#Hello_world">To be continue ...</a></li>
-      </ul>
-      <ul>
-        <li><a class="nav-link" href="#Variables">To be continue ...</a></li>
-      </ul>
-      <ul>
-        <li>
-          <a class="nav-link" href="#Declaring_variables">To be continue ...</a>
-        </li>
-        <li>
-          <a class="nav-link" href="#Constants">To be continue ...</a>
-        </li>
-      </ul>
     </nav>
     <main id="main-doc">
-      <section class="main-section" id="Introduction">
-        <header>HTML/CSS</header>
-        <article>
-          <p></p>
-          <p></p>
-          <div class="list">
-            <ul>
-              <li>
-                <p></p>
-              </li>
-              <li>
-                <p></p>
-              </li>
-            </ul>
-          </div>
-        </article>
-      </section>
-
       <section class="main-section" id="javascript">
         <header>The realtionship between JavaScript and html/css</header>
         <p>
@@ -190,102 +150,11 @@
         </article>
       </section>
 
-      <section class="main-section" id="Hello_world">
-        <header>To be continued...</header>
-        <article>
-          To get started with writing JavaScript, open the Scratchpad and write
-          your first "Hello world" JavaScript code:
+      
+      
+      
 
-          <code
-            >function greetMe(yourName) { alert("Hello " + yourName); }
-            greetMe("World");
-          </code>
-          Select the code in the pad and hit Ctrl+R to watch it unfold in your
-          browser!
-        </article>
-      </section>
-      <section class="main-section" id="Variables">
-        <header>Variables</header>
-        <p>
-          You use variables as symbolic names for values in your application.
-          The names of variables, called identifiers, conform to certain rules.
-        </p>
-        <p>
-          A JavaScript identifier must start with a letter, underscore (_), or
-          dollar sign ($); subsequent characters can also be digits (0-9).
-          Because JavaScript is case sensitive, letters include the characters
-          "A" through "Z" (uppercase) and the characters "a" through "z"
-          (lowercase).
-        </p>
-        <p>
-          You can use ISO 8859-1 or Unicode letters such as å and ü in
-          identifiers. You can also use the Unicode escape sequences as
-          characters in identifiers. Some examples of legal names are
-          Number_hits, temp99, and _name.
-        </p>
-      </section>
-      <section class="main-section" id="Declaring_variables">
-        <header>Declaring variables</header>
-        <article>
-          You can declare a variable in three ways:
-          <p>
-            With the keyword var. For example, <code>var x = 42.</code> This
-            syntax can be used to declare both local and global variables.
-          </p>
-          <p>
-            By simply assigning it a value. For example,
-            <code>x = 42.</code> This always declares a global variable. It
-            generates a strict JavaScript warning. You shouldn't use this
-            variant.
-          </p>
-          <p>
-            With the keyword let. For example,<code> let y = 13.</code> This
-            syntax can be used to declare a block scope local variable. See
-            Variable scope below.
-          </p>
-        </article>
-      </section>
-
-      <section class="main-section" id="Constants">
-        <header>Constants</header>
-        <article>
-          <p>
-            You can create a read-only, named constant with the const keyword.
-            The syntax of a constant identifier is the same as for a variable
-            identifier: it must start with a letter, underscore or dollar sign
-            and can contain alphabetic, numeric, or underscore characters.
-          </p>
-
-          <code>const PI = 3.14;</code>
-          <p>
-            A constant cannot change value through assignment or be re-declared
-            while the script is running. It has to be initialized to a value.
-          </p>
-
-          <p>
-            The scope rules for constants are the same as those for let block
-            scope variables. If the const keyword is omitted, the identifier is
-            assumed to represent a variable.
-          </p>
-
-          <p>
-            You cannot declare a constant with the same name as a function or
-            variable in the same scope. For example:
-          </p>
-
-          <code
-            >// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
-            WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
-            //statements }</code
-          >
-          However, object attributes are not protected, so the following
-          statement is executed without problems.
-          <code
-            >const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
-            "otherValue";</code
-          >
-        </article>
-      </section>
+      
     </main>
   </body>
 </html>
