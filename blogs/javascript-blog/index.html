@@ -82,7 +82,9 @@
 
           <p>
             Loops means when you want to repeat some actions, and you can use a
-            loop to do that. For example:
+            loop to do that. For example, while you are in a party, you can keep
+            drinking and playing video game, but when the party is over, you
+            need to sotp these activities. Like in this code:
           </p>
           <code>
             for (let step = 0; step < 5; step++) {console.log("Walking east one
@@ -113,6 +115,78 @@
           In this one, we use document.querySelectorAll('.dom') to get all the
           'dom' class in html, and change the text to 'HTML5 Document Object
           Model.'
+        </article>
+
+        <header>Accessing data from arrays and objects</header>
+
+        <article>
+          <p>
+            Arrays means a list, like let arry = ["a", "b", "c"]. In this
+            example, if you want to get b, you can use arry[1]. There are
+            <a
+              href="https://www.geeksforgeeks.org/how-to-access-array-of-objects-in-javascript/"
+              >several ways</a
+            >
+            to access data from arrys:
+          </p>
+
+          <ul>
+            <li>Using the [ ] notation</li>
+            <code>arrayName[arrayIndex]</code>
+            <li>Using DOT notation</li>
+            <code>arrayName[arrayIndex].propertyName</code>
+            <li>Using for..in loop</li>
+            <code
+              >console.log("Accessing the values using the for..in loop:") for
+              (var key in objArr) { // Console logs all the values in the objArr
+              Array: console.log(objArr[key]); }</code
+            >
+            <li>Using forEach Loop</li>
+            <code
+              >arrayName.forEach(function(item) { console.log(item); });</code
+            >
+            <li>Using map() method</li>
+            <code>arrayName.map((item) => { console.log(item); });</code>
+            <li>Using filter() method</li>
+            <code>arrayName.filter(function(item) { console.log(item); })</code>
+          </ul>
+
+          <p>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object"
+              >Objects</a
+            >
+            usually means a collection of different properties. For exampole, a
+            car object has properties like weight, color, name, and model.
+            <code>const car = {type:"Fiat", model:"500", color:"white"};</code>
+            There are three ways to access the properties of an object.
+            <ul>
+              <li>Dot property accessor: object.property</li>
+              <code>const hero = {
+                name: 'Batman'
+              };
+              
+              // Dot property accessor
+              console.log(hero.name); // => 'Batman'</code>
+              <li>Square brackets property accessor: object['property']</li>
+              <code>const property = 'name';
+                const hero = {
+                  name: 'Batman'
+                };
+                
+                // Square brackets property accessor:
+                console.log(hero['name']);   // => 'Batman'
+                console.log(hero[property]); // => 'Batman'</code>
+              <li>Object destructuring: const { property } = object</li>
+              <code>const hero = {
+                name: 'Batman'
+              };
+              
+              // Object destructuring:
+              const { name } = hero;
+              console.log(name); // => 'Batman'</code>
+            </ul>
+          </p>
         </article>
       </section>
 
