@@ -12,6 +12,7 @@ header {
   text-align: center;
   font-size: 1.8em;
   display: block;
+  font-weight: bolder;
 }
 
 @media only screen and (max-width: 815px) {
